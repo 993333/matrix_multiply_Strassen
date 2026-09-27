@@ -7,7 +7,7 @@ using namespace std;
 
 using VV = vector<vector<int>>;
 using V = vector<int>;
-int On = 0;
+int On = 0; // сумма всех умножений кроме на степень 10 в матрицах 2x2
 
 void print_matrix(VV matrix, string row_prefix = " ") {
     for (int i = 0; i < matrix.size(); i++) {
