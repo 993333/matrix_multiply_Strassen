@@ -180,8 +180,7 @@ int main(){
 
     print_4quater(first_quater, second_quater, third_quater, fourth_quater);
 
-    cout << "L(4) = 7 * " << On << " + 40\n";
-    cout << "L(4) = " << 7 * On + 40 << '\n';
+    cout << "L(4) = 7 * L(2) + " << On << "\n";
 
 
     return 0;
